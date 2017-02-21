@@ -28,6 +28,6 @@ public class Counter implements Iterable<Integer>{
         for(Integer i : new Counter(3)){
             total += i;
         }
-        assert total == 8;
+        assert total == 6;
     }
 }
