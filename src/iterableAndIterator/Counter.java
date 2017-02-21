@@ -11,7 +11,7 @@ public class Counter implements Iterable<Integer>{
     }
     public Iterator<Integer> iterator(){
         return new Iterator<Integer>(){
-            int i;
+            private int i = 0;
             public boolean hasNext(){
                 return i < counter;
             }
@@ -22,5 +22,12 @@ public class Counter implements Iterable<Integer>{
                 throw new UnsupportedOperationException();
             }
         };
+    }
+    public static void main(String[] args){
+        int total = 0;
+        for(Integer i : new Counter(3)){
+            total += i;
+        }
+        assert total == 8;
     }
 }
