@@ -37,7 +37,7 @@ class ArrayStack implements Stack{
     }
 }
 public class nonThreadSafeStack {
-    public static void maun(String[] args){
+    public static void main(String[] args){
 
     }
 }
