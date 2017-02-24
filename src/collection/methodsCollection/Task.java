@@ -1,4 +1,4 @@
-package methodsCollection;
+package collection.methodsCollection;
 
 /**
  * Created by anonymous.vn1985 on 2/22/2017.

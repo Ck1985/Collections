@@ -1,4 +1,4 @@
-package methodsCollection;
+package collection.methodsCollection;
 import java.util.*;
 
 /**
